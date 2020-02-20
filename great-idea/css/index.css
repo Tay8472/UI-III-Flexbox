@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin: 0 25%;
+}
+
+.nav1 {
+	margin: 25px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav1 a{
+	text-decoration: none;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav1 a:link {
+	color: grey;
+	transition: 0.4s
+}
+
+.nav1 a:hover {
+	color: maroon;
+}
+
+.section1 {
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.section1 div{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section1 h1 {
+	width: 340px;
+	font-size: 70px;
+}
+
+.section1 a {
+	text-decoration: none;
+	font-weight: bold;
+	background-color: grey;
+	padding: 20px;
+	transition: 0.4s;
+}
+
+.section1 a:link {
+	color: black;
+	transition: 0.4s;
+}
+
+.section1 a:hover {
+	color: white;
+	background-color: maroon;
+}
+
+.title1 h1 {
+	font-size: 50px;
+}
+
+.section2 {
+	margin: 25px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.section2 div {
+	margin: 0 20px 0 0;
+}
+
+.middle-img {
+	max-width:100%;
+	height:auto;
+}
+
+.section3 {
+	margin: 25px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.section3 div {
+	margin: 0 20px 0 0;
+}
+
+footer {
+	 line-height: 2;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:link {
+	color: grey;
+	transition: 0.4s;
+}
+
+footer a:hover {
+	color: maroon;
+}
+
+footer div{
+	text-align: center;
+}
